@@ -131,7 +131,7 @@
             Controls.Add(labelInstructions);
             Controls.Add(labelDir);
             Name = "Form1";
-            Text = "erWin Batch Popup Disable";
+            Text = "erWin Popup Remover";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

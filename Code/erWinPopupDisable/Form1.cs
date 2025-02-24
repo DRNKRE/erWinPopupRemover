@@ -4,12 +4,12 @@ namespace erWinBatchPopupDisable {
         public Form1() {
             InitializeComponent();
         }
-        
-        
+
+
         erWinPdfFilePopupDisableClass m_erWinFileDis;
         string m_currentMessage;
         int m_percent;
-        
+
         private void Form1_Load(object sender, EventArgs e) {
             checkBoxRecursive.Checked = true;
             labelMessage.Text = "To get started, browse for the root directory of your manual then click Go.";
