@@ -1,0 +1,4 @@
+#Ignore Auto Generated folders
+/.vs/
+*/bin/
+*/obj/
