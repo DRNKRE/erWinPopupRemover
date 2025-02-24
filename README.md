@@ -14,6 +14,8 @@ Volkswagen AG, often shortened as VAG, has an amazing resource called erWin. Thi
 
 In the US, this comes with a caveat.  Each PDF has javascript embedded that causes a popup and a disclaimer agreement to appear.  Not every PDF viewer implements javascript correctly and these scripts.  This causes the document to get stuck at the disclaimer agreement.  This can also be annoying when switching between documents while diagnosing the car.
 
+<img title="Pop-up Example" src="./Documentation/Img/MessageToBeRemoved.bmp">
+
 ## What's the solution?
 
 Inside the PDF there are two variable declarations, `showUSAPopup` and `showPopup`.  By default, these variables are set to true.  Change these variables to false and the popup and disclaimer will no longer show up.
@@ -52,7 +54,7 @@ Organize your service manuals.  Example shown below.
 `│   │       D3E800779BF-Automatic_Transmission.pdf`\
 `│   │       D3E800E3EF5-Automatic_Transmission_Internal_Components.pdf`\
 `│   │       D3E804C9D51-Manual_Transmission.pdf`\
-`...`\
+`...`
 
 ### Step 3
 
@@ -63,6 +65,8 @@ Archive your service manuals.  As with any automated conversion process, make su
 ### Step 4
 
 Run `erWin Popup Remover` then either enter your root directory of your manuals or select browse and select the root directory of your manuals.  The root directory is the highest-level directory that contains your manuals and the sub-directory that contains the manuals and no higher.  If you have more than one directory inside of the root directory, you will want to keep `recursive` checked.  Recursive, in this case, means the program will search your current directory and all directories inside that directory.
+
+<img title="Pop-up Example" src="./Documentation/Img/BrowseExample.png">
 
 ### Step 5
 
