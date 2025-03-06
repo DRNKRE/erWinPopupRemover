@@ -12,7 +12,7 @@ Volkswagen AG, often shortened as VAG, has an amazing resource called erWin. Thi
 
 ## What's the problem?
 
-In the US, this comes with a caveat.  Each PDF has javascript embedded that causes a popup and a disclaimer agreement to appear.  Not every PDF viewer implements javascript correctly and these scripts.  This causes the document to get stuck at the disclaimer agreement.  This can also be annoying when switching between documents while diagnosing the car.
+In the US, this comes with a caveat.  Each PDF has javascript embedded that causes a popup and a disclaimer agreement to appear.  Not every PDF viewer implements javascript correctly.  This causes the document to get stuck at the disclaimer agreement.  This can also be annoying when switching between documents while diagnosing the car.
 
 <img title="Pop-up Example" src="./Documentation/Img/MessageToBeRemoved.bmp">
 
